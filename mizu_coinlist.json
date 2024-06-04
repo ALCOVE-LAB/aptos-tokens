@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Aptos Coin",
+    "symbol": "APT",
+    "official_symbol": "APT",
+    "coingecko_id": "aptos",
+    "decimals": 8,
+    "logo_url": "https://raw.githubusercontent.com/hippospace/aptos-coin-list/main/icons/APT.webp",
+    "project_url": "https://aptoslabs.com/",
+    "token_type": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "account_address": "0x1",
+      "module_name": "aptos_coin",
+      "struct_name": "AptosCoin"
+    },
+    "extensions": {
+      "data": [["bridge", "native"]]
+    },
+    "unique_index": 1,
+    "source": "native",
+    "permissioned_listing": true,
+    "hippo_symbol": "APT",
+    "pancake_symbol": "APT"
+  },
+  {
+    "name": "Gui Inu",
+    "symbol": "GUI",
+    "official_symbol": "GUI",
+    "coingecko_id": "",
+    "decimals": 6,
+    "logo_url": "https://raw.githubusercontent.com/hippospace/aptos-coin-list/main/icons/GUI.png",
+    "project_url": "https://aptosmonkeys.club/",
+    "token_type": {
+      "type": "0xe4ccb6d39136469f376242c31b34d10515c8eaaa38092f804db8e08a8f53c5b2::assets_v1::EchoCoin002",
+      "account_address": "0xe4ccb6d39136469f376242c31b34d10515c8eaaa38092f804db8e08a8f53c5b2",
+      "module_name": "assets_v1",
+      "struct_name": "EchoCoin002"
+    },
+    "extensions": {
+      "data": []
+    },
+    "unique_index": 227,
+    "source": "native",
+    "permissioned_listing": true,
+    "hippo_symbol": "GUI",
+    "pancake_symbol": "GUI"
+  }
+]
